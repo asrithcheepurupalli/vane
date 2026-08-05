@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #ece8df; }
+    .fg { stroke: #14130f; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #100f0c; }
+      .fg { stroke: #ece8df; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14"/>
+  <!-- two barbs, hooked into one another: the whole product at 16px -->
+  <g class="fg" fill="none" stroke-width="7" stroke-linecap="round">
+    <path d="M21 13 V30 a8 8 0 0 0 16 0"/>
+    <path d="M43 51 V34 a8 8 0 0 1 -16 0"/>
+  </g>
+</svg>
