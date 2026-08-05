@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "casestudy:pdf": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf-no-header --allow-file-access-from-files --print-to-pdf=VANE-Case-Study.pdf --virtual-time-budget=12000 \"file://$PWD/docs/VANE-Case-Study.html\""
   },
   "dependencies": {
     "gsap": "^3.12.5",
