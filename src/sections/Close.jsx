@@ -72,6 +72,7 @@ export default function Close() {
             <div className="foot__colophon label">
               <p>Set in Instrument Serif, Inter Tight and JetBrains Mono.</p>
               <p>Drawings are ours. Prior art belongs to the birds.</p>
+              <p><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
             </div>
           </div>
         </div>
